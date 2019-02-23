@@ -37,6 +37,7 @@ public class BigQueryToDatastore {
   interface BigQueryToDatastoreOptions
       extends BigQueryReadOptions, DatastoreWriteOptions, ErrorWriteOptions {}
 
+
   /**
    * Runs a pipeline which reads data from BigQuery and writes it to Datastore.
    *
